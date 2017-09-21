@@ -2,7 +2,9 @@
 > Gets the sum of the values in collection.
 
 
-## resources:
-
-## todos:
-- [ ] unit test case
+## usage:
+```js
+var arr1 = [1,2,3,4];
+var rs1 = nx.sum(arr1);
+// 10
+```
