@@ -1,7 +1,7 @@
 {
-  "name": "next-sum",
+  "name": "@feizheng/next-sum",
   "version": "1.0.0",
-  "description": "Gets the sum of the values in collection",
+  "description": "Gets the sum of the values in collection.",
   "homepage": "https://github.com/afeiship/next-sum",
   "author": {
     "name": "afei",
@@ -10,29 +10,31 @@
   "scripts": {
     "build": "gulp",
     "test": "jest",
-    "version": "gulp bump"
+    "start": "node ./express.js"
   },
   "main": "dist/next-sum.js",
   "license": "MIT",
   "devDependencies": {
-    "del": "^2.2.1",
+    "@feizheng/gulp-pkg-header": "^1.0.4",
+    "@feizheng/next-js-core2": "^2.6.0",
+    "@feizheng/rake-git": "^1.2.1",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
-    "gulp-bump": "^3.1.3",
     "gulp-debug": "^4.0.0",
-    "gulp-header": "^2.0.7",
-    "gulp-ignore": "^2.0.2",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^2.1.2",
-    "jest": "^23.6.0",
-    "yargs": "^4.7.1",
+    "gulp-header": "^2.0.9",
+    "gulp-ignore": "^3.0.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "uglify-js": "3.10.0",
     "uglify-save-license": "^0.4.1",
-    "prettier": "^1.14.3",
-    "next-nice-comments": "github:afeiship/next-nice-comments"
+    "yargs": "^15.4.0"
   },
-  "dependencies": {
-    "next-js-core2": "github:afeiship/next-js-core2"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
