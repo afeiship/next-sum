@@ -31,6 +31,8 @@ const arr3 = [
 
 // simple
 nx.sum(arr1);   // 15
+
+// use path(or xx.yy.zz)
 nx.sum(arr2, 'value'); // 1110
 
 // with callback
