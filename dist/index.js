@@ -3,7 +3,7 @@
  * description: Gets the sum of the values in collection.
  * homepage: https://github.com/afeiship/next-sum
  * version: 1.0.0
- * date: 2020-11-20 16:54:53
+ * date: 2020-11-20 16:55:45
  * license: MIT
  */
 
