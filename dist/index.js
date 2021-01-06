@@ -2,13 +2,13 @@
  * name: @jswork/next-sum
  * description: Gets the sum of the values in collection.
  * homepage: https://github.com/afeiship/next-sum
- * version: 1.0.0
- * date: 2020-11-20 16:55:45
+ * version: 1.0.1
+ * date: 2021-01-06 22:43:20
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   var getCallback = function (inPath) {
