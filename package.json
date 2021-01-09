@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-sum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gets the sum of the values in collection.",
   "homepage": "https://github.com/afeiship/next-sum",
   "author": {

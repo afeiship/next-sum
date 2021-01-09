@@ -2,8 +2,8 @@
  * name: @jswork/next-sum
  * description: Gets the sum of the values in collection.
  * homepage: https://github.com/afeiship/next-sum
- * version: 1.0.1
- * date: 2021-01-06 22:43:20
+ * version: 1.0.2
+ * date: 2021-01-09 16:40:28
  * license: MIT
  */
 
